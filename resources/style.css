@@ -139,6 +139,10 @@ h6 {
   padding: 32px 16px 32px 16px;
 }
 
+.imgtwo {
+  display: none;
+}
+
 h4 {
   font-size: 1.5rem;
   line-height: 1;
@@ -234,6 +238,10 @@ p {
 }
 
 @media only screen and (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+
   #logo {
     display: none;
   }
@@ -251,7 +259,7 @@ p {
 
   .info {
     width: 100%;
-    padding: 0;
+    padding-top: 0;
   }
 
   h1 {
@@ -277,11 +285,104 @@ p {
   .story {
     display: block;
     width: 100%;
+    border-bottom: 1px solid white;
+  }
+
+  .storytext {
+    padding: 1rem;
   }
 
   .story img {
     width: 100%;
     height: auto;
-    padding: 16px 0;
+  }
+
+  .imgtwo {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 1.2rem;
+  }
+
+  .imgone {
+    display: none;
+  }
+
+  #guestlecture {
+    background-color: white;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 32px;
+  }
+
+  .section.three {
+    background-color: white;
+  }
+
+  .class {
+    display: block;
+    text-align: center;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .class h4 {
+    text-align: left;
+    background-color: lightgrey;
+    color: black;
+    padding: 16px;
+    max-width: 90%;
+    margin: 1rem;
+  }
+
+  .class img {
+    display: none;
+  }
+
+  .class p {
+    display: none;
+  }
+
+  .section.four {
+    display: block;
+  }
+
+  .thesis {
+    padding: 1rem;
+  }
+
+  .video {
+    max-width: 100%;
+    height: auto;
+    padding-right: 1rem;
+    margin-right: 0;
+    overflow: hidden;
+  }
+
+  .video h4 {
+    display: none;
+  }
+
+  .video p {
+    display: none;
+  }
+
+  .small {
+    display: none;
+  }
+
+  video {
+    width: 450px;
+    height: 350px;
+    padding-bottom: 24px;
+  }
+
+  footer {
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  h2 {
+    padding: 0;
   }
 }
